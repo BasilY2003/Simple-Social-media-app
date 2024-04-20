@@ -1,0 +1,133 @@
+
+{
+  "posts":[
+    {
+      "postId": 123456789,
+      "author": {
+        "userId": 987654321,
+        "name": "John Doe"
+      },
+      "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      "createdAt": "2024-04-20T12:00:00Z",
+      "likes": [
+        {
+          "userId": 111,
+          "name": "Alice"
+        },
+        {
+          "userId": 222,
+          "name": "Bob"
+        },
+        {
+          "userId": 333,
+          "name": "Charlie"
+        }
+      ],
+      "comments": [
+        {
+          "commentId": 1,
+          "userId": 444,
+          "name": "David",
+          "content": "Nice post!",
+          "createdAt": "2024-04-20T12:05:00Z"
+        },
+        {
+          "commentId": 2,
+          "userId": 555,
+          "name": "Eve",
+          "content": "Great content!",
+          "createdAt": "2024-04-20T12:10:00Z"
+        },
+        {
+          "commentId": 3,
+          "userId": 666,
+          "name": "Frank",
+          "content": "Interesting.",
+          "createdAt": "2024-04-20T12:15:00Z"
+        }
+      ]
+
+    },
+    {
+      "postId": 234567890,
+      "author": {
+        "userId": 123,
+        "name": "Alice Smith"
+      },
+      "content": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.",
+      "createdAt": "2024-04-21T09:30:00Z",
+      "likes": [
+        {
+          "userId": 777,
+          "name": "Grace"
+        },
+        {
+          "userId": 888,
+          "name": "Henry"
+        }
+      ],
+      "comments": [
+        {
+          "commentId": 4,
+          "userId": 999,
+          "name": "Isaac",
+          "content": "Great post!",
+          "createdAt": "2024-04-21T09:35:00Z"
+        }
+      ]
+    },
+    {
+        "postId": 567890123,
+        "author": {
+          "userId": 987,
+          "name": "David Lee"
+        },
+        "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "createdAt": "2024-04-24T11:20:00Z",
+        "likes": [
+          {
+            "userId": 111,
+            "name": "Alice"
+          },
+          {
+            "userId": 444,
+            "name": "David"
+          }
+        ],
+        "comments": [
+          {
+            "commentId": 7,
+            "userId": 888,
+            "name": "Henry",
+            "content": "Keep up the good work!",
+            "createdAt": "2024-04-24T11:25:00Z"
+          }
+        ]
+      },
+      {
+        "postId": 678901234,
+        "author": {
+          "userId": 333,
+          "name": "Eve Anderson"
+        },
+        "content": "Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam.",
+        "createdAt": "2024-04-25T14:30:00Z",
+        "likes": [
+          {
+            "userId": 222,
+            "name": "Bob"
+          },
+          {
+            "userId": 555,
+            "name": "Eve"
+          }
+        ],
+        "comments": []
+      }
+    ]
+    }
+      
+      
+
+  
+  

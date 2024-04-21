@@ -16,12 +16,15 @@ export default function Postsform({ setPosts }) {
       username: "new_user", 
       timestamp: new Date().toISOString(), 
       likes: [],
-      comments: []
+      comments: [],
+
     };
 
     postJsonData(postObject)
-      .then(() => {
-        setPosts((prevPosts) => [...prevPosts, postObject]);
+    
+      .then((response) => {
+
+        setPosts((prevPosts) => [...prevPosts, response]);
         setTitle("");
         setContent("");
       })

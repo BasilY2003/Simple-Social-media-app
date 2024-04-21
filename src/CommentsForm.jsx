@@ -8,9 +8,10 @@ export default function CommentsForm({ setComments, comments, id}) {
   const { postJsonData } = useCommentsPOST(`${POST_URL}/${id}/comments`);
 
   const addComment = () => {
+
     const commentObject = {
         commentId: 989,
-        userName: "PETER GRIFFIN",
+        userName: "PETER GRIFFINN",
         postid: id, 
         likes: [],
         date: new Date().toISOString(), 
@@ -18,7 +19,8 @@ export default function CommentsForm({ setComments, comments, id}) {
       };
 
     postJsonData(commentObject)
-      .then(() => {
+      .then((res) => {
+        console.log(res)
         setComments([...comments, commentObject]);
         
         setTextArea("");

@@ -6,6 +6,8 @@ const postsContext = createContext();
 function PostsProvider({children}) {
 
     const [posts,setPosts] = useState([]);
+    const [comments,setComments] = useState([])
+    const [likes,setLikes] = useState([])
     const[selectedPost,setSelectedPost] = useState(null);
 
 
@@ -28,7 +30,7 @@ function PostsProvider({children}) {
     
 
     return(
-        <postsContext.Provider value={{posts,setPosts,selectedPost,setSelectedPost}}>
+        <postsContext.Provider value={{posts,setPosts,selectedPost,setSelectedPost,comments,setComments,likes,setLikes}}>
             {children}
         </postsContext.Provider>
     )

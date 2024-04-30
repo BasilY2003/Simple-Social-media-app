@@ -13,7 +13,7 @@ export default function Postsform({ setPosts }) {
   const addPost = () => {
     const postObject = {
       content: content,
-      username: "new_user", 
+      username: "Owner", 
       timestamp: new Date().toISOString(), 
       likes: [],
       comments: [],
